@@ -1,14 +1,13 @@
 package com.CodeWithAbha.BookMyMovieShow.Models;
 
 
-import com.CodeWithAbha.BookMyMovieShow.TheaterSeatEntity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.util.List;
-@Entity
+@Entity   //inorder to define any class as an entity
 @Table(name="theater")
 @Data
 @NoArgsConstructor

@@ -9,8 +9,8 @@ import lombok.NoArgsConstructor;
 import java.util.Date;
 import java.util.List;
 
-@Table(name = "movies")
-@Entity
+@Table(name = "movies")  //show table name movies
+@Entity   //for object in springboot
 @Data
 @Builder
 @AllArgsConstructor

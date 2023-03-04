@@ -21,7 +21,7 @@ public class UserEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
-    private String mobile;
+  private String mobile;
     @CreationTimestamp
     @Temporal(value = TemporalType.TIMESTAMP)
     private Date createdOn;

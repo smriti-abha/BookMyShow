@@ -1,6 +1,7 @@
-package com.CodeWithAbha.BookMyMovieShow;
+package com.CodeWithAbha.BookMyMovieShow.Models;
 
 
+import com.CodeWithAbha.BookMyMovieShow.Enums.SeatType;
 import com.CodeWithAbha.BookMyMovieShow.Models.TheaterEntity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -15,6 +16,8 @@ public class TheaterSeatEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
+    @Column(unique = true,columnDefinition = "seat_no",nullable = false)
     private String seatNo;
     @Enumerated(value = EnumType.STRING)
     private SeatType seatType;

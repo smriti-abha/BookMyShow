@@ -2,7 +2,7 @@ package com.CodeWithAbha.BookMyMovieShow.Models;
 
 
 
-import com.CodeWithAbha.BookMyMovieShow.SeatType;
+import com.CodeWithAbha.BookMyMovieShow.Enums.SeatType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
